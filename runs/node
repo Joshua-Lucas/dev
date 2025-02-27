@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+if command -v nvm &> /dev/null; then
+	echo "nvm is installed"
+else
+	source ~/.zshrc
+fi
+
+# install lts version of node and npm
+nvm install --lts
+
+nvm use --lts
+
+

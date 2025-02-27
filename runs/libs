@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+sudo apt -y update
+sudo apt -y install git ripgrep
+
+#Fuzzy Find
+git clone git@github.com:junegunn/fzf.git $HOME/personal/fzf
+$HOME/personal/fzf/install
+
