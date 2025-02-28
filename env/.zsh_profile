@@ -15,4 +15,4 @@ addToPathFront() {
     fi
 }
 
-addToPath $HOME/.local/personal
+addToPath $HOME/.local/scripts

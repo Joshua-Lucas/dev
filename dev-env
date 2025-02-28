@@ -62,6 +62,9 @@ copy_file() {
 
 copy_dir ./env/.config $XDG_CONFIG_HOME
 copy_dir .local $HOME/.local
+copy_file ./env/.zsh_profile $HOME
+copy_file ./env/.zshrc $HOME
+copy_file ./env/.wezterm.lua $HOME
 
 
 
